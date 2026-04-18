@@ -1,8 +1,6 @@
-FROM python:3.11-slim
+FROM python:3.11
 
 WORKDIR /app
-
-RUN apt-get update && apt-get install -y libglib2.0-0 && rm -rf /var/lib/apt/lists/*
 
 # Copy python requirements and install them
 COPY requirements.txt requirements.txt
