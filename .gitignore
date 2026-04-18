@@ -1,0 +1,5 @@
+.fly/
+.insforge/
+.agents/
+**/__pycache__/
+*.pptx
